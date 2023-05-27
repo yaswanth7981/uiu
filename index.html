@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body{
+    background-image: url(pigl.jpg);
+    color: rgb(230, 230, 238);
+}        
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+}
+.pig{
+    position: relative;
+    height:200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color:rgb(241, 154, 168);
+    scale: 1.5;
+}
+.face{
+    height: 10%;
+    width: 130%;
+    position: relative;
+}
+.eye1{
+    width:100%;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    top:40px;
+    right:24px;
+}
+.eye1 span{
+    display: inline-block;
+    margin-right: 10px;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background-color:rgb(205, 215, 68);
+    border : 8px solid rgb(111, 182, 230);
+}
+.eye2{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    background-color:black;
+    top:65px;
+    left:50px;  
+}
+.eye3{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    background-color:black;
+    top:65px;
+    left:130px;
+    
+}
+.mouth{
+    width: 80px;
+    height: 40px;
+    border-radius: 30% 30% 30% 30% ;
+    position: absolute;
+    background-color:rgb(215, 40, 42);
+    top: 130px;
+    left:60px;
+    border : 4px solid lemonchiffon;
+}
+.nose1{
+    width: 20px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    background-color:black;
+    top:140px;
+    left:70px;
+    
+}
+.nose2{
+    width: 20px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    background-color:black;
+    top:140px;
+    left:120px;
+    
+}
+.ear1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    background-color:pink;
+}
+.ear2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:pink;
+    position: absolute;
+    left: 150px;
+}
+    </style>
+</head>
+<body>
+    <CENTER>
+    <h1>MAGIC PIG</h1>
+    </CENTER>
+    <div class="container">
+        <div class="pig">
+            <div class="face">
+              <div class="eye1">
+                <span></span>
+                <span></span>
+              </div>
+              <div class="eye2"></div>
+              <div class="eye3"></div>
+              <div class="mouth"></div>
+              <div class="nose1"></div>
+              <div class="nose2"></div>
+              <div class="ear1"></div>
+              <div class="ear2"  ></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
